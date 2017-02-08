@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		E24F02EC1D8DAA7200F2C78D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F02EB1D8DAA7200F2C78D /* AppDelegate.swift */; };
-		E24F02EE1D8DAA7200F2C78D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F02ED1D8DAA7200F2C78D /* ViewController.swift */; };
 		E24F02F11D8DAA7200F2C78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24F02EF1D8DAA7200F2C78D /* Main.storyboard */; };
 		E24F02F31D8DAA7200F2C78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E24F02F21D8DAA7200F2C78D /* Assets.xcassets */; };
 		E24F02F61D8DAA7200F2C78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E24F02F41D8DAA7200F2C78D /* LaunchScreen.storyboard */; };
+		E24F02FE1D8DAAB600F2C78D /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F02FD1D8DAAB600F2C78D /* Representative.swift */; };
+		E24F03001D8DB3DC00F2C78D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F02FF1D8DB3DC00F2C78D /* NetworkController.swift */; };
+		E24F03021D8DC1D400F2C78D /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F03011D8DC1D400F2C78D /* RepresentativeController.swift */; };
+		E24F03041D8DD06500F2C78D /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F03031D8DD06500F2C78D /* StateController.swift */; };
+		E24F03061D8DD0DB00F2C78D /* StatesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F03051D8DD0DB00F2C78D /* StatesListTableViewController.swift */; };
+		E24F03081D8DD0F200F2C78D /* StatesDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F03071D8DD0F200F2C78D /* StatesDetailTableViewController.swift */; };
+		E24F030A1D8DD6FB00F2C78D /* RepresentativeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24F03091D8DD6FB00F2C78D /* RepresentativeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E24F02E81D8DAA7200F2C78D /* Representatives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Representatives.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E24F02EB1D8DAA7200F2C78D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E24F02ED1D8DAA7200F2C78D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E24F02F01D8DAA7200F2C78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E24F02F21D8DAA7200F2C78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E24F02F51D8DAA7200F2C78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E24F02F71D8DAA7200F2C78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E24F02FD1D8DAAB600F2C78D /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		E24F02FF1D8DB3DC00F2C78D /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		E24F03011D8DC1D400F2C78D /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
+		E24F03031D8DD06500F2C78D /* StateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		E24F03051D8DD0DB00F2C78D /* StatesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesListTableViewController.swift; sourceTree = "<group>"; };
+		E24F03071D8DD0F200F2C78D /* StatesDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesDetailTableViewController.swift; sourceTree = "<group>"; };
+		E24F03091D8DD6FB00F2C78D /* RepresentativeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				E24F02EB1D8DAA7200F2C78D /* AppDelegate.swift */,
-				E24F02ED1D8DAA7200F2C78D /* ViewController.swift */,
+				E24F03031D8DD06500F2C78D /* StateController.swift */,
+				E24F02FD1D8DAAB600F2C78D /* Representative.swift */,
+				E24F02FF1D8DB3DC00F2C78D /* NetworkController.swift */,
+				E24F03011D8DC1D400F2C78D /* RepresentativeController.swift */,
+				E24F03051D8DD0DB00F2C78D /* StatesListTableViewController.swift */,
+				E24F03071D8DD0F200F2C78D /* StatesDetailTableViewController.swift */,
+				E24F03091D8DD6FB00F2C78D /* RepresentativeTableViewCell.swift */,
 				E24F02EF1D8DAA7200F2C78D /* Main.storyboard */,
 				E24F02F21D8DAA7200F2C78D /* Assets.xcassets */,
 				E24F02F41D8DAA7200F2C78D /* LaunchScreen.storyboard */,
@@ -91,11 +109,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "JB Thompson";
 				TargetAttributes = {
 					E24F02E71D8DAA7200F2C78D = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -135,8 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E24F02EE1D8DAA7200F2C78D /* ViewController.swift in Sources */,
+				E24F030A1D8DD6FB00F2C78D /* RepresentativeTableViewCell.swift in Sources */,
+				E24F03021D8DC1D400F2C78D /* RepresentativeController.swift in Sources */,
+				E24F03041D8DD06500F2C78D /* StateController.swift in Sources */,
+				E24F03001D8DB3DC00F2C78D /* NetworkController.swift in Sources */,
 				E24F02EC1D8DAA7200F2C78D /* AppDelegate.swift in Sources */,
+				E24F03081D8DD0F200F2C78D /* StatesDetailTableViewController.swift in Sources */,
+				E24F02FE1D8DAAB600F2C78D /* Representative.swift in Sources */,
+				E24F03061D8DD0DB00F2C78D /* StatesListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +201,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -222,8 +249,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -242,6 +271,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -255,6 +285,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jbthompson.Representatives;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +297,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jbthompson.Representatives;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +320,7 @@
 				E24F02FC1D8DAA7200F2C78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
